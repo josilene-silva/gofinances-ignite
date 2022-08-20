@@ -114,7 +114,7 @@ export function Dashboard() {
                     style: 'currency',
                     currency: 'BRL'
                 }),
-                lastTransaction: `Última saída dia ${lastTransactionEntries}`,
+                lastTransaction: `Última entrada dia ${lastTransactionEntries}`,
             },
             expensive: {
                 amount: expensiveTotal.toLocaleString('pt-BR', {
